@@ -1,9 +1,9 @@
 export const metadata = {
-  title: "ROVINNA — Apprends à déguster comme un pro",
-  description: "Ton sommelier IA personnel : choisis ton vin, analyse une bouteille en photo, mémorise efficacement et partage ta passion du vin.",
+  title: "ROVINNA — Apprends le vin pas à pas",
+  description: "Parcours interactifs pour découvrir les régions, les cépages et les styles. Sommelier IA, dégustation guidée, mémos intelligents et communauté de passionnés.",
   metadataBase: new URL("https://rovinna.be"),
   openGraph: {
-    title: "ROVINNA — Apprends à déguster comme un pro",
+    title: "ROVINNA — Apprends le vin pas à pas",
     description: "Sommelier IA, dégustation guidée, mémos intelligents et communauté de passionnés.",
     type: "website",
   },
