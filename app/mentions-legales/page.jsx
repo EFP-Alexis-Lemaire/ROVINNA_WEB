@@ -16,7 +16,7 @@ export default function MentionsLegales() {
       <h2 className="serif">1. Éditeur du site</h2>
       <p>
         Le site <b>rovinna.be</b> est édité à titre privé par :<br />
-        <span className="ph">Nom et prénom — à compléter</span><br />
+        <span className="ph">Lemaire Alexis</span><br />
         E-mail : <a href="mailto:support@rovinna.be">support@rovinna.be</a>
       </p>
 

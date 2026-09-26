@@ -21,7 +21,7 @@ export default function Confidentialite() {
 
       <h2 className="serif">1. Responsable du traitement</h2>
       <p>
-        <span className="ph">Nom et prénom — à compléter</span>, particulier basé en Belgique.<br />
+        <span className="ph">Lemaire Alexis</span>, particulier basé en Belgique.<br />
         Contact vie privée : <a href="mailto:support@rovinna.be">support@rovinna.be</a>
       </p>
 
