@@ -182,10 +182,10 @@ export default function LandingClient() {
               <div className="phone-screen">
                 <div className="acct-top">
                   <div className="acct-avatar"><img src="/goutte.svg" alt="Goutte" style={{ width: 26, height: 32, objectFit: "contain" }} /></div>
-                  <div><small>Bonjour</small><b>Passionné de vin</b></div>
-                  <div className="acct-xp"><Icon name="search" size={16} /> <img src="/goutte.svg" alt="Goutte" className="goutte-inline" /> 8 XP</div>
+                  <div><small>Bonjour</small><b>@vieuxlamas</b></div>
+                  <div className="acct-xp"><Icon name="search" size={16} /> <img src="/goutte.svg" alt="Goutte" className="goutte-inline" /> 0</div>
                 </div>
-                <div className="xp-row"><span>Débutant</span><span>8 XP</span></div>
+                <div className="xp-row"><span>Amateur</span><span>681 XP</span></div>
                 <div className="xp-track"><i /></div>
                 <div className="lesson-banner">
                   <span style={{ fontSize: 26 }}>🎃</span>
@@ -215,10 +215,17 @@ export default function LandingClient() {
                     <span><span style={{ display: "inline-flex", alignItems: "center", gap: 6, color: "var(--wine)" }}><Icon name="glass" size={17} /> <b style={{ color: "var(--ink)" }}>Dégustation guidée</b></span><br /><small style={{ color: "var(--muted)" }}>3 bouteilles · optionnel</small></span>
                     <b style={{ color: "var(--wine)" }}>Ouvrir →</b>
                   </div>
+                  <p style={{ textAlign: "center", margin: "12px 0 0", fontSize: 13, fontWeight: 600, color: "#a08e90" }}>Choisir une autre leçon →</p>
                 </div>
-                <div className="tab-bar">
-                  <div className="on"><Icon name="home" size={18} /><br />Accueil</div>
+                <div className="stats-row">
+                  <div><Icon name="book" size={18} /><b>4</b></div>
+                  <div><Icon name="cap" size={18} /><b>0</b></div>
+                  <div><img src="/goutte.svg" alt="Goutte" style={{ width: 16, height: 20, objectFit: "contain" }} /><b>0</b></div>
+                </div>
+                <div className="tab-bar five">
+                  <div className="on"><Icon name="home" size={18} /><br />Leçons</div>
                   <div><Icon name="book" size={18} /><br />Mémos</div>
+                  <div><Icon name="camera" size={18} /><br />Scan</div>
                   <div><Icon name="chat" size={18} /><br />Sommelier</div>
                   <div><Icon name="user" size={18} /><br />Profil</div>
                 </div>
@@ -319,7 +326,7 @@ export default function LandingClient() {
             <div className="idea"><span className="ic"><Icon name="glass" size={20} /></span><div><b>Quel vin ce soir ?</b><small>Recommandation du moment</small></div></div>
             <div className="idea"><span className="ic"><Icon name="chat" size={20} /></span><div><b>Accord mets-vin</b><small>Ajoute ton plat à la fin</small></div></div>
             <div className="idea"><span className="ic"><Icon name="gift" size={20} /></span><div><b>Cadeau ~30€</b><small>Précise pour qui</small></div></div>
-            <div className="idea"><span className="ic"><Icon name="camera" size={20} /></span><div><b>Analyse une bouteille</b><small>En photo, instantanément</small></div></div>
+            <div className="idea"><span className="ic"><Icon name="camera" size={20} /></span><div><b>Analyse une bouteille</b><small>Onglet Scan, en photo</small></div></div>
           </div>
           <div className="card wine">
             <div className="n">4 · Communauté</div>
@@ -370,7 +377,7 @@ export default function LandingClient() {
             <ul>
               <li><b>Offres marketing & partenariats</b><br />Cavistes, domaines, restaurants, presse.</li>
               <li><b>Support</b><br />Compte, bug, idée de fonctionnalité.</li>
-              <li><b>Email direct</b><br /><a href="mailto:support@rovinna.app">support@rovinna.app</a></li>
+              <li><b>Email direct</b><br /><a href="mailto:support@rovinna.be">support@rovinna.be</a></li>
               <li><b>Basés en Belgique</b> — rovinna.be</li>
             </ul>
             <p style={{ fontSize: 13, opacity: .8 }}>Réponse sous 48h ouvrées en général.</p>
@@ -420,7 +427,7 @@ export default function LandingClient() {
             </div>
             <div style={{ display: "flex", gap: 40 }}>
               <div><b>App</b><br /><a href="#features">Fonctionnalités</a><br /><a href="#telecharger">Télécharger</a><br /><a href="#contact">Contact</a></div>
-              <div><b>Légal</b><br /><a href="#">Confidentialité</a><br /><a href="#">CGU</a><br /><a href="mailto:support@rovinna.app">support@rovinna.app</a></div>
+              <div><b>Légal</b><br /><a href="/mentions-legales">Mentions légales</a><br /><a href="/confidentialite">Confidentialité</a><br /><a href="/cgu">CGU</a><br /><a href="mailto:support@rovinna.be">support@rovinna.be</a></div>
             </div>
           </div>
           <div className="legal">© {new Date().getFullYear()} ROVINNA.be — Tous droits réservés. L’abus d’alcool est dangereux pour la santé. À consommer avec modération. Réservé aux adultes en âge légal de consommer de l’alcool.</div>
