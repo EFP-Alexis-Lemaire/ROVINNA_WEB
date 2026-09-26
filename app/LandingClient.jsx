@@ -427,7 +427,7 @@ export default function LandingClient() {
             </div>
             <div style={{ display: "flex", gap: 40 }}>
               <div><b>App</b><br /><a href="#features">Fonctionnalités</a><br /><a href="#telecharger">Télécharger</a><br /><a href="#contact">Contact</a></div>
-              <div><b>Légal</b><br /><a href="/mentions-legales">Mentions légales</a><br /><a href="/confidentialite">Confidentialité</a><br /><a href="/cgu">CGU</a><br /><a href="mailto:support@rovinna.be">support@rovinna.be</a></div>
+              <div><b>Légal</b><br /><a href="/mentions-legales">Mentions légales</a><br /><a href="/confidentialite">Confidentialité</a><br /><a href="/privacy">Confidentialité (app)</a><br /><a href="/cgu">CGU</a><br /><a href="mailto:support@rovinna.be">support@rovinna.be</a></div>
             </div>
           </div>
           <div className="legal">© {new Date().getFullYear()} ROVINNA.be — Tous droits réservés. L’abus d’alcool est dangereux pour la santé. À consommer avec modération. Réservé aux adultes en âge légal de consommer de l’alcool.</div>

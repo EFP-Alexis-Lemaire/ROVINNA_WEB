@@ -96,8 +96,9 @@ export default function Confidentialite() {
 
       <h2 className="serif">11. Modifications</h2>
       <p>
-        Cette politique peut évoluer, notamment lors de la sortie de l’application mobile
-        (création de compte, nouvelles fonctionnalités). La version en ligne fait foi.
+        Cette politique peut évoluer. La version en ligne fait foi. Pour le traitement des
+        données dans l’<b>application mobile</b> (compte, photos, IA), voir la{" "}
+        <a href="/privacy">politique de confidentialité de l’app</a>.
       </p>
     </main>
   );
