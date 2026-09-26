@@ -84,7 +84,7 @@ export default function PrivacyApp() {
       <p>
         Pour toute question relative à la protection de vos données personnelles, contactez notre
         délégué à la protection des données à :{" "}
-        <a href="mailto:privacy@rovinna.be">privacy@rovinna.be</a>
+        <a href="mailto:support@rovinna.be">support@rovinna.be</a>
       </p>
 
       <p className="updated" style={{ marginTop: 32 }}>© 2026 Rovinna</p>
