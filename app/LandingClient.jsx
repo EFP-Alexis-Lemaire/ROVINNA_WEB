@@ -357,7 +357,7 @@ export default function LandingClient() {
             </a>
           </div>
           <div className="qr-row">
-            <div className="qr"><div className="qr-box">QR iOS<br />disponible</div><p style={{ fontSize: 13 }}>Scanne pour télécharger</p></div>
+            <div className="qr"><div className="qr-box"><img src="/qr-ios.png" alt="QR code App Store ROVINNA" style={{ width: 120, height: 120 }} /></div><p style={{ fontSize: 13 }}>Scanne pour télécharger sur l’App Store</p></div>
             <div className="qr"><div className="qr-box">QR Android<br />bientôt</div><p style={{ fontSize: 13 }}>Scanne à la sortie</p></div>
           </div>
         </div>
