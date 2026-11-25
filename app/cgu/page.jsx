@@ -24,7 +24,7 @@ export default function CGU() {
       <p>Le site permet de :</p>
       <ul>
         <li>découvrir les fonctionnalités à venir : leçons pas à pas, sommelier IA, mémos intelligents, communauté, dégustations guidées ;</li>
-        <li>être redirigé vers l’App Store et Google Play <b>dès la sortie officielle</b> (liens actuellement inactifs, mention « Bientôt ») ;</li>
+        <li>être redirigé vers l’App Store (application disponible) et, prochainement, Google Play ;</li>
         <li>contacter l’éditeur via le formulaire (offres marketing, partenariats, support, presse).</li>
       </ul>
 

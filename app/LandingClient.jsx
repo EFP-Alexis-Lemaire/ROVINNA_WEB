@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 // 👉 Quand tes apps seront en ligne, remplace juste ces 2 URLs :
-const APP_STORE_URL = "#";
+const APP_STORE_URL = "https://apps.apple.com/fr/app/rovinna/id6814142551";
 const GOOGLE_PLAY_URL = "#";
 
 // Icônes trait fin bordeaux, esprit app (sobre, pas d'emoji)
@@ -160,7 +160,6 @@ export default function LandingClient() {
               <a href={APP_STORE_URL} onClick={(e) => handleStoreClick(e, APP_STORE_URL)} className="store-btn">
                 <span style={{ opacity: .95 }}><BrandIcon d={APPLE_D} size={26} /></span>
                 <span><small>Télécharger sur</small><strong>App Store</strong></span>
-                <span className="soon">Bientôt</span>
               </a>
               <a href={GOOGLE_PLAY_URL} onClick={(e) => handleStoreClick(e, GOOGLE_PLAY_URL)} className="store-btn">
                 <span style={{ opacity: .95 }}><BrandIcon d={PLAY_D} size={24} /></span>
@@ -344,13 +343,12 @@ export default function LandingClient() {
       <section id="telecharger" className="section container">
         <div className="download">
           <span className="kicker">Télécharger</span>
-          <h2 className="serif" style={{ fontSize: "clamp(28px,4vw,44px)", margin: "12px 0" }}>Bientôt sur tes stores préférés</h2>
-          <p style={{ color: "#5a3a3f" }}>L’app arrive. Les liens App Store et Google Play seront activés ici dès la sortie.</p>
+          <h2 className="serif" style={{ fontSize: "clamp(28px,4vw,44px)", margin: "12px 0" }}>Disponible sur l’App Store</h2>
+          <p style={{ color: "#5a3a3f" }}>ROVINNA est disponible sur l’App Store. Google Play arrive bientôt.</p>
           <div className="store-row" style={{ justifyContent: "center" }}>
             <a href={APP_STORE_URL} onClick={(e) => handleStoreClick(e, APP_STORE_URL)} className="store-btn">
               <span style={{ opacity: .95 }}><BrandIcon d={APPLE_D} size={26} /></span>
               <span><small>Télécharger sur</small><strong>App Store</strong></span>
-              <span className="soon">Bientôt</span>
             </a>
             <a href={GOOGLE_PLAY_URL} onClick={(e) => handleStoreClick(e, GOOGLE_PLAY_URL)} className="store-btn">
               <span style={{ opacity: .95 }}><BrandIcon d={PLAY_D} size={24} /></span>
@@ -359,7 +357,7 @@ export default function LandingClient() {
             </a>
           </div>
           <div className="qr-row">
-            <div className="qr"><div className="qr-box">QR iOS<br />bientôt</div><p style={{ fontSize: 13 }}>Scanne à la sortie</p></div>
+            <div className="qr"><div className="qr-box">QR iOS<br />disponible</div><p style={{ fontSize: 13 }}>Scanne pour télécharger</p></div>
             <div className="qr"><div className="qr-box">QR Android<br />bientôt</div><p style={{ fontSize: 13 }}>Scanne à la sortie</p></div>
           </div>
         </div>
